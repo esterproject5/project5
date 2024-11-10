@@ -20,17 +20,16 @@ Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
 Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
-Blob Storage key: 8vNfUqGqnND0GI1Yujdd17gwURdEyBwVsFfKuiwZJdByu8DEWhHc2R1RYcQFxxUX2vqx72OXiz2
-Blob connection string: DefaultEndpointsProtocol=https;AccountName=images11;AccountKey=8vNfUqGqnND0GI1Yujdd17gwURdEyBwVsFfKuiwZJdByu8DEWhHc2R1RYcQFxxUX2vqx72OXiz2/+AStSydbYA==;EndpointSuffix=core.windows.net
+Blob Storage key: gIkdJdpby6ZEvRmD7t2vY1zfb6WndwBLPWh9d4m9GoVHsrN4ptrgHsrpRKi2sOFL4zMVEoh7lTIz+ASttnW6Eg==
 4. Microsoft Entra ID
 4.1. App Registration
 Name: cmsEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
 Secret description: cmsSecret
-Secret Key: 3a51cadc-dc5f-4503-959d-d4286f24d7a4
-Client Secret: wN48Q~SVo5ecjrNs-Fac1wvs9cRVgXVYPxEmjc.r
-Application (client) ID: 1660e7a3-74ae-4945-aea0-5bd962871c33
+Secret Key: dee81440-4368-46e3-8b58-6be7269734b5
+Client Secret: ZVu8Q~d_tlD.wY5dTwvek7WQOAgyyaxX~gp3wa7b
+Application (client) ID: 3f455150-88d3-4570-ab42-1ef078080ae9
 5. Application
 Pick either of the following two options for setting up your application. Once you have set up the application successfully, you may begin to work on the OAuth2 login feature.
 
@@ -119,17 +118,19 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
-BLOB_ACCOUNT: image11
+BLOB_ACCOUNT: imagesproject5
 BLOB_CONTAINER: images
-BLOB_STORAGE_KEY: N1L3GpGK4J+EAkf2Bwu9QJXhS2JQF3mkK3Y1CUE7ah79tTmtUUDFnMKCBrVHSxGXpyw0J6QS2eEt+AStxkseeA==
-BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=image11;AccountKey=N1L3GpGK4J+EAkf2Bwu9QJXhS2JQF3mkK3Y1CUE7ah79tTmtUUDFnMKCBrVHSxGXpyw0J6QS2eEt+AStxkseeA==;EndpointSuffix=core.windows.net
-SQL_SERVER: cms.database.windows.net
-SQL_DATABASE: cms
+BLOB_STORAGE_KEY: gIkdJdpby6ZEvRmD7t2vY1zfb6WndwBLPWh9d4m9GoVHsrN4ptrgHsrpRKi2sOFL4zMVEoh7lTIz+ASttnW6Eg==
+BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=imagesproject5;AccountKey=gIkdJdpby6ZEvRmD7t2vY1zfb6WndwBLPWh9d4m9GoVHsrN4ptrgHsrpRKi2sOFL4zMVEoh7lTIz+ASttnW6Eg==;EndpointSuffix=core.windows.net
+SQL_SERVER: cmsproject5.database.windows.net
+SQL_DATABASE: cms (cmsproject5/cms)
 SQL_USER_NAME: cmsadmin
-SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: liK8Q~KDwIGaXpH1UaR-RS3W0Bk8-apIqD32ectH
-SECRET_KEY: ac2df92a-66cf-4f47-875b-f5d027c33934
-CLIENT_ID: 4cec6730-afad-4714-b5bb-9b2c6666eaba
+SQL_PASSWORD: Project5
+CLIENT_SECRET: ZVu8Q~d_tlD.wY5dTwvek7WQOAgyyaxX~gp3wa7b
+SECRET_KEY: dee81440-4368-46e3-8b58-6be7269734b5
+CLIENT_ID: 3f455150-88d3-4570-ab42-1ef078080ae9
+
+
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
