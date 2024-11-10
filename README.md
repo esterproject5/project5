@@ -3,9 +3,9 @@ Resource Group Name: cms
 2. SQL Database
 DB name: cms
 Server: cms.database.windows.net
-DB region: us-east
+DB region: us-west_europe
 Admin login: cmsadmin
-Admin password: CMS4dmin
+Admin password: Project5
 Resource group: cms
 DB workload env: Development
 DB compute + storage: DTU - Basic
