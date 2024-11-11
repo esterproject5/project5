@@ -120,8 +120,8 @@ After creation:
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
 BLOB_ACCOUNT: imagesproject5
 BLOB_CONTAINER: images
-BLOB_STORAGE_KEY: gIkdJdpby6ZEvRmD7t2vY1zfb6WndwBLPWh9d4m9GoVHsrN4ptrgHsrpRKi2sOFL4zMVEoh7lTIz+ASttnW6Eg==
-BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=imagesproject5;AccountKey=gIkdJdpby6ZEvRmD7t2vY1zfb6WndwBLPWh9d4m9GoVHsrN4ptrgHsrpRKi2sOFL4zMVEoh7lTIz+ASttnW6Eg==;EndpointSuffix=core.windows.net
+BLOB_STORAGE_KEY: Jm/q1x8tk0BEEDF3TQouOG1IeX1KAUA06ptV6U/d7owvaqDRknq2RWZkDfDpLk3VJ2hParoJY/ct+AStVGDLtQ==
+BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=imagesproject5;AccountKey=Jm/q1x8tk0BEEDF3TQouOG1IeX1KAUA06ptV6U/d7owvaqDRknq2RWZkDfDpLk3VJ2hParoJY/ct+AStVGDLtQ==;EndpointSuffix=core.windows.net
 SQL_SERVER: cmsproject5.database.windows.net
 SQL_DATABASE: cms (cmsproject5/cms)
 SQL_USER_NAME: cmsadmin
